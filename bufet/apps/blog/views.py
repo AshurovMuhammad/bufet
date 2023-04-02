@@ -5,5 +5,9 @@ from django.views.generic import TemplateView
 # Create your views here.
 
 class IndexPage(TemplateView):
-    template_name = 'index.html'  # Рендер шаблона
+    template_name = '' \
+                    'index.html'  # Рендер шаблона
 
+
+class ProductsView(TemplateView):
+    template_name = 'products.html'
